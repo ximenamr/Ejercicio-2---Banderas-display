@@ -1,0 +1,40 @@
+/*se indica que el tamaño de las cajas y fuente de letra serám las mismas.*/
+*{
+  box-sizing: border-box;
+  font-family: serif;
+}
+/*se coloca alto, ancho y tamaño de letra*/
+div{
+  height: 130px;
+  width: 250px;
+  font-size: 18px;
+}
+
+.yellow{
+  /*se elige color de fondo*/
+  background-color: #ffc107;
+  /*se alargan las letras*/
+  letter-spacing: -0.9pt;
+  /*se asigna relleno hacia el lado izquierdo y superior*/
+  padding-left:7px;
+  padding-top: 7px;
+  /*indicamos cuanto queremos que sea el margen se separación*/
+  margin: 8px;
+  /*hacemos que se posicione en bloque*/
+  display: block;
+}
+.black{
+    /*se elige color de fondo*/
+  background-color: #333333;
+  /*se agrega color al contenido (letras)*/
+  color: white;
+  /*se alargan las letras*/
+  letter-spacing: -0.9pt;
+  /*se asigna relleno hacia el lado izquierdo y superior*/
+  padding-left: 7px;
+  padding-top: 7px;
+  /*indicamos cuanto queremos que sea el margen se separación*/
+  margin: 8px;
+  /*hacemos que se posicione en bloque*/
+  display: block;
+}
